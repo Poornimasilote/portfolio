@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 40px;
+  padding: 48px 24px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(243, 164, 181, 0.15),
+    rgba(243, 164, 181, 0.25)
+  );
+
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(233, 124, 151, 0.3);
+}

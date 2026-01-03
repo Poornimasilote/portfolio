@@ -1,0 +1,66 @@
+.home {
+  padding-top: 160px;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+  padding: 64px;
+  align-items: center;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: var(--pink-accent);
+  font-weight: 500;
+}
+
+.home-description {
+  max-width: 480px;
+}
+
+.home-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 26px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  transition: all var(--transition-medium);
+}
+
+.primary-btn {
+  background: var(--pink-accent);
+  color: white;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+}
+
+.secondary-btn {
+  border: 1px solid var(--pink-accent);
+  color: var(--pink-accent);
+}
+
+.secondary-btn:hover {
+  background: var(--pink-accent);
+  color: white;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 24px;
+}

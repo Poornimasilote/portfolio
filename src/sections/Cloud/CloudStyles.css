@@ -1,0 +1,47 @@
+.cloud-section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.cloud-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.cloud-architecture {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cloud-architecture img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.cloud-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.cloud-card {
+  padding: 24px;
+}
+
+.cloud-card h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.cloud-certification {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: var(--pink-accent);
+  font-weight: 500;
+}

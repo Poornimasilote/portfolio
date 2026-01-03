@@ -1,0 +1,23 @@
+:root {
+  /* Pink palette */
+  --pink-light: #fff4f7;
+  --pink-soft: #f3a4b5;
+  --pink-accent: #e97c97;
+
+  /* Text */
+  --text-primary: #2b2b2b;
+  --text-secondary: #6f6f6f;
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-blur: blur(18px);
+
+  /* Layout */
+  --max-width: 1200px;
+  --section-padding: 80px;
+
+  /* Animation */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.4s ease;
+}

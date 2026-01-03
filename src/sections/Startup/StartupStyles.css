@@ -1,0 +1,25 @@
+.startup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.startup-intro {
+  max-width: 680px;
+  font-size: 1rem;
+}
+
+.startup-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.startup-card {
+  padding: 28px;
+}
+
+.startup-card h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}

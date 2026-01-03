@@ -1,0 +1,19 @@
+.contact-section {
+  padding: 64px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
