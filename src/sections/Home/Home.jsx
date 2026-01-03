@@ -7,7 +7,7 @@ const Home = () => {
       <div className="section-container home-container glass">
         <div className="home-text">
           <h1 className="heading-xl">
-            Poornima Silote
+            Poornima 
           </h1>
 
           <p className="home-subtitle">
